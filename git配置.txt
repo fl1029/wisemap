@@ -1,0 +1,34 @@
+
+
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "fl1209"]
+	url = https://github.com/fl1029/wisemap.git
+	fetch = +refs/heads/*:refs/remotes/fl1209/*
+[branch "master"]
+	remote = fl1209
+	merge = refs/heads/master
+
+
+
+仓库名称:wisemap
+https://github.com/fl1029/wisemap.git
+
+SSH:git@github.com:fl1029/wisemap.git
+
+--连接远程
+$ mkdir gittest
+$ cd gittest/
+$ git init
+$ git remote add origin https://github.com/fl1029/wisemap/git
+
+--git gui remote 加用户和location  重要
+
+d:\wiseoa\git2018 已连接上远程
+
+D:\WiseOA\firstcoreweb 只是本地未连接
